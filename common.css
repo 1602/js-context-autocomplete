@@ -1,0 +1,49 @@
+/* :folding=explicit: */
+
+body {
+	color: #000;
+	background: #ddd;
+	font-family:Verdana,Tahoma,Helvetica,Arial,sans-serif;
+	font-size:11px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+}
+
+/*<AUTOCOMPLETE>*/
+
+.autocomplete_menu {
+	display: none;
+	background-color: #FFF;
+	border: 1px solid #CACACA;
+	font-family: verdana;
+	font-size: 1em;
+	left: 0;
+	margin: 2px 0 0 2px;
+	position: absolute;
+	text-align: left;
+	top: 0;
+	z-index: 100;
+}
+
+.autocomplete_menu ul {
+	margin: 0;
+	padding: 2px;
+}
+
+.autocomplete_menu ul li {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	padding: 3px;
+	cursor: default;
+}
+
+.autocomplete_menu ul li.selected {
+	color: #fff;
+	background: #0060BF;
+}
+
+/*</AUTOCOMPLETE>*/
